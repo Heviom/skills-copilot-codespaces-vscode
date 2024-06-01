@@ -34,4 +34,4 @@ app.get('/getComment', function(req, res) {
         if (err) throw err;
         res.send(data);
     });
-});
+}); 
